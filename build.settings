@@ -1,0 +1,20 @@
+settings =
+{
+
+    android =
+    {
+        useGoogleServicesJson = true,
+        
+    	usesPermissions =
+    	{
+        	"android.permission.INTERNET"
+    	},
+
+    },
+    plugins = {
+        ["plugin.firestore"] =
+            {
+                publisherId = "tech.scotth",
+            },
+    },
+}
