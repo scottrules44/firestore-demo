@@ -2,7 +2,7 @@ local firestore = require("plugin.firestore")
 local widget = require("widget")
 local json = require("json")
 
-    firestore.init()
+firestore.init(projectId, apiKey, applicationId) -- see docs, but you get this info for android in google-services.json
 
 
 --functions
